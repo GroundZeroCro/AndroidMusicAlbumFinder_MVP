@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/brown</color>
+    <color name="colorPrimaryDark">@color/coffee</color>
+    <color name="colorAccent">@color/red</color>
+
+    <color name="coffee">#CEBCB2</color>
+    <color name="lightCoffee">#D1CFD0</color>
+    <color name="red">#EE596C</color>
+    <color name="brown">#433D3F</color>
+    <color name="green">#6E9C35</color>
+</resources>

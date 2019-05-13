@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".music.fragments.TopAlbumsFragment">
+
+    <TextView
+        android:id="@+id/top_albums_subtitle"
+        fontPath="@string/regular_fonts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/top_albums_subtitle"
+        android:textColor="@color/lightCoffee"
+        android:textSize="@dimen/music_subtitle_size"
+        tools:ignore="MissingPrefix" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/top_albums_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:padding="16dp" />
+
+</LinearLayout>

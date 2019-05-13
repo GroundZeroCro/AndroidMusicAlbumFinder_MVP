@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LastFM Radio</string>
+
+    <string name="display_fonts">fonts/Righteous-Regular.ttf</string>
+    <string name="regular_fonts">fonts/Dosis-Regular.ttf</string>
+
+    <string name="title_home">Bookmarks</string>
+    <string name="title_people">Search</string>
+    <string name="artist_name_hint">Artist name...</string>
+    <string name="search_button">Search</string>
+    <string name="warning_no_data_fetched">Was unable to retreive data. Please try again later.</string>
+    <string name="warning_valid_input_name">Please enter valid artist name.</string>
+    <string name="album_image_description">album_image_description</string>
+    <string name="bookmark_button">bookmark_button</string>
+    <string name="dialog_msg_bookmark_album">You\'re about to add this album into your bookmarks.</string>
+    <string name="dialog_title_bookmark_album">Bookmark Album</string>
+    <string name="album_bookmarked_message">Album bookmaked</string>
+    <string name="album_bookmarked_message_error">Album is already bookmarked.</string>
+    <string name="album_bookmarks_subtitle">Album Bookmarks</string>
+    <string name="top_albums_subtitle">Top Albums</string>
+    <string name="empty_album_bookmarks_subtitle">Empty Bookmarks</string>
+</resources>

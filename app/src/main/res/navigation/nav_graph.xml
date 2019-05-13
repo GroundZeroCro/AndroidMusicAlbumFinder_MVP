@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_favorites">
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.groundzero.appfactory.music.fragments.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_favoritesFragment_to_album"
+            app:destination="@id/single_album" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.groundzero.appfactory.music.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_albumsFragment"
+            app:destination="@id/topAlbumsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/topAlbumsFragment"
+        android:name="com.groundzero.appfactory.music.fragments.TopAlbumsFragment"
+        android:label="fragment_albums"
+        tools:layout="@layout/fragment_top_albums" >
+        <action
+            android:id="@+id/action_albumsFragment_to_album"
+            app:destination="@id/single_album" />
+    </fragment>
+    <fragment
+        android:id="@+id/single_album"
+        android:name="com.groundzero.appfactory.music.fragments.SingleAlbumFragment"
+        android:label="fragment_single_album"
+        tools:layout="@layout/fragment_single_album" />
+
+</navigation>
