@@ -4,8 +4,8 @@ import android.content.Context;
 
 import androidx.room.Room;
 
-import com.groundzero.appfactory.bookmarks.db.dao.SingleAlbumDao;
-import com.groundzero.appfactory.bookmarks.db.logic.SingleAlbumDatabase;
+import com.groundzero.appfactory.favorites.db.dao.SingleAlbumDao;
+import com.groundzero.appfactory.favorites.db.logic.SingleAlbumDatabase;
 
 import javax.inject.Singleton;
 

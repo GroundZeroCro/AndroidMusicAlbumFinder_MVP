@@ -3,7 +3,7 @@ package com.groundzero.appfactory.common.handlers;
 import com.bumptech.glide.Glide;
 import com.groundzero.appfactory.R;
 import com.groundzero.appfactory.common.adapters.SingleAlbumTracksAdapter;
-import com.groundzero.appfactory.bookmarks.db.dao.SingleAlbumDao;
+import com.groundzero.appfactory.favorites.db.dao.SingleAlbumDao;
 import com.groundzero.appfactory.common.models.SingleAlbum;
 import com.groundzero.appfactory.common.presenter.SingleAlbumPresenter;
 import com.groundzero.appfactory.common.views.SingleAlbumView;

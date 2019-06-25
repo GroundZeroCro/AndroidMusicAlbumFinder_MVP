@@ -1,4 +1,4 @@
-package com.groundzero.appfactory.bookmarks.db.dao;
+package com.groundzero.appfactory.favorites.db.dao;
 
 import androidx.room.Dao;
 import androidx.room.Delete;

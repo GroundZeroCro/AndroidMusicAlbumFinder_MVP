@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey;
 import androidx.room.TypeConverters;
 
 import com.google.gson.annotations.SerializedName;
-import com.groundzero.appfactory.bookmarks.db.utils.SingleAlbumEntityConverter;
+import com.groundzero.appfactory.favorites.db.utils.SingleAlbumEntityConverter;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.groundzero.appfactory.bookmarks.view;
+package com.groundzero.appfactory.favorites.view;
 
 import com.groundzero.appfactory.common.views.BaseView;
 

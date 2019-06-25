@@ -1,11 +1,11 @@
-package com.groundzero.appfactory.bookmarks.presenter;
+package com.groundzero.appfactory.favorites.presenter;
 
 import android.content.Context;
 
-import com.groundzero.appfactory.bookmarks.db.dao.SingleAlbumDao;
-import com.groundzero.appfactory.bookmarks.handlers.FavoritesResponseHandler;
+import com.groundzero.appfactory.favorites.db.dao.SingleAlbumDao;
+import com.groundzero.appfactory.favorites.handlers.FavoritesResponseHandler;
 import com.groundzero.appfactory.common.service.DisposableService;
-import com.groundzero.appfactory.bookmarks.view.FavoritesView;
+import com.groundzero.appfactory.favorites.view.FavoritesView;
 
 import javax.inject.Inject;
 

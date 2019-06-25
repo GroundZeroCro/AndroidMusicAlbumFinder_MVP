@@ -1,4 +1,4 @@
-package com.groundzero.appfactory.bookmarks.fragments;
+package com.groundzero.appfactory.favorites.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.groundzero.appfactory.R;
-import com.groundzero.appfactory.bookmarks.presenter.FavoritesPresenter;
-import com.groundzero.appfactory.bookmarks.view.FavoritesView;
+import com.groundzero.appfactory.favorites.presenter.FavoritesPresenter;
+import com.groundzero.appfactory.favorites.view.FavoritesView;
 import com.groundzero.appfactory.common.di.components.FoundationComponent;
 import com.groundzero.appfactory.common.fragments.BaseFragment;
 

@@ -1,4 +1,4 @@
-package com.groundzero.appfactory.bookmarks.db.utils;
+package com.groundzero.appfactory.favorites.db.utils;
 
 import androidx.room.TypeConverter;
 

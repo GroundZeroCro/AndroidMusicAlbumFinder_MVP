@@ -3,7 +3,7 @@ package com.groundzero.appfactory.common.presenter;
 import android.content.Context;
 
 import com.groundzero.appfactory.common.di.components.FoundationComponent;
-import com.groundzero.appfactory.bookmarks.db.dao.SingleAlbumDao;
+import com.groundzero.appfactory.favorites.db.dao.SingleAlbumDao;
 import com.groundzero.appfactory.common.handlers.SingleAlbumResponseHandler;
 import com.groundzero.appfactory.common.models.SingleAlbum;
 import com.groundzero.appfactory.common.service.DisposableService;

@@ -1,12 +1,12 @@
-package com.groundzero.appfactory.bookmarks.handlers;
+package com.groundzero.appfactory.favorites.handlers;
 
 import android.content.Context;
 
 import com.groundzero.appfactory.R;
-import com.groundzero.appfactory.bookmarks.adapters.FavoriteAlbumsAdapter;
+import com.groundzero.appfactory.favorites.adapters.FavoriteAlbumsAdapter;
 import com.groundzero.appfactory.common.handlers.ResponseHandler;
 import com.groundzero.appfactory.common.models.SingleAlbum;
-import com.groundzero.appfactory.bookmarks.view.FavoritesView;
+import com.groundzero.appfactory.favorites.view.FavoritesView;
 
 import java.util.List;
 

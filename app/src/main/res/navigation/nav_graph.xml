@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_favorites"
-        android:name="com.groundzero.appfactory.bookmarks.fragments.FavoritesFragment"
+        android:name="com.groundzero.appfactory.favorites.fragments.FavoritesFragment"
         android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites">
         <action

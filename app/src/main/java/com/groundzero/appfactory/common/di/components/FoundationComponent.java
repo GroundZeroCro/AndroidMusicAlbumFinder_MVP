@@ -3,7 +3,7 @@ package com.groundzero.appfactory.common.di.components;
 import com.groundzero.appfactory.common.di.modules.FoundationModule;
 import com.groundzero.appfactory.common.di.modules.InternalDbModule;
 import com.groundzero.appfactory.common.di.modules.NetworkModule;
-import com.groundzero.appfactory.bookmarks.presenter.FavoritesPresenter;
+import com.groundzero.appfactory.favorites.presenter.FavoritesPresenter;
 import com.groundzero.appfactory.search.presenters.SearchPresenter;
 import com.groundzero.appfactory.common.presenter.SingleAlbumPresenter;
 import com.groundzero.appfactory.search.presenters.TopAlbumsPresenter;

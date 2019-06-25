@@ -1,4 +1,4 @@
-package com.groundzero.appfactory.bookmarks.adapters;
+package com.groundzero.appfactory.favorites.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
