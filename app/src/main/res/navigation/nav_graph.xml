@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/navigation_favorites"
-        android:name="com.groundzero.appfactory.music.fragments.FavoritesFragment"
+        android:name="com.groundzero.appfactory.bookmarks.fragments.FavoritesFragment"
         android:label="fragment_favorites"
         tools:layout="@layout/fragment_favorites">
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/navigation_search"
-        android:name="com.groundzero.appfactory.music.fragments.SearchFragment"
+        android:name="com.groundzero.appfactory.search.fragments.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search">
         <action
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/topAlbumsFragment"
-        android:name="com.groundzero.appfactory.music.fragments.TopAlbumsFragment"
+        android:name="com.groundzero.appfactory.search.fragments.TopAlbumsFragment"
         android:label="fragment_albums"
         tools:layout="@layout/fragment_top_albums" >
         <action
@@ -36,7 +36,7 @@
     </fragment>
     <fragment
         android:id="@+id/single_album"
-        android:name="com.groundzero.appfactory.music.fragments.SingleAlbumFragment"
+        android:name="com.groundzero.appfactory.common.fragments.SingleAlbumFragment"
         android:label="fragment_single_album"
         tools:layout="@layout/fragment_single_album" />
 

@@ -3,11 +3,11 @@ package com.groundzero.appfactory.common.di.components;
 import com.groundzero.appfactory.common.di.modules.FoundationModule;
 import com.groundzero.appfactory.common.di.modules.InternalDbModule;
 import com.groundzero.appfactory.common.di.modules.NetworkModule;
-import com.groundzero.appfactory.music.presenter.FavoritesPresenter;
-import com.groundzero.appfactory.music.presenter.SearchPresenter;
-import com.groundzero.appfactory.music.presenter.SingleAlbumPresenter;
-import com.groundzero.appfactory.music.presenter.TopAlbumsPresenter;
-import com.groundzero.appfactory.music.service.MusicService;
+import com.groundzero.appfactory.bookmarks.presenter.FavoritesPresenter;
+import com.groundzero.appfactory.search.presenters.SearchPresenter;
+import com.groundzero.appfactory.common.presenter.SingleAlbumPresenter;
+import com.groundzero.appfactory.search.presenters.TopAlbumsPresenter;
+import com.groundzero.appfactory.common.service.MusicService;
 
 import javax.inject.Singleton;
 

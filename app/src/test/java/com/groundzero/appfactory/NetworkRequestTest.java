@@ -2,7 +2,7 @@ package com.groundzero.appfactory;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.groundzero.appfactory.music.service.MusicService;
+import com.groundzero.appfactory.common.service.MusicService;
 
 import org.junit.AfterClass;
 import org.junit.Before;
